@@ -19,8 +19,10 @@ button,input,select{font:inherit;color:inherit}
 .defs{position:absolute;width:0;height:0}
 .muted{color:var(--mut)}
 
-.ribbon{background:var(--ink);color:#f1dccf;text-align:center;font-size:.8rem;padding:.4rem 1rem}
-.ribbon a{color:#fff;font-weight:700}
+.ribbon{display:flex;align-items:center;justify-content:center;gap:.6rem 1rem;flex-wrap:wrap;background:linear-gradient(90deg,#2b1d1a,#6b2737,#2b1d1a);color:#f1dccf;font-size:.82rem;padding:.55rem 1rem;text-align:center}
+.rb-tag{font-weight:800;font-size:.7rem;letter-spacing:.05em;padding:.1rem .6rem;border-radius:999px;background:#f1cfc2;color:#6b2737}
+.rb-cta{font-weight:800;color:#2b1d1a;background:#fff;padding:.3rem .9rem;border-radius:999px;transition:.2s;white-space:nowrap}
+.rb-cta:hover{background:#f1cfc2}
 
 .nav{position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:1.5rem;padding:.8rem clamp(16px,4vw,56px);background:#f6efe7d9;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid #2b1d1a12}
 .brand{display:flex;align-items:center;gap:.6rem;font-weight:800;font-size:1.35rem}
